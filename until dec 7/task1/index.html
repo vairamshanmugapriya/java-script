@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .first{
+        margin-top: 40px;
+      }
+      .first1{
+        margin-left: 20px;
+      }
+     .last{
+     margin-left: 24px;  
+      }
+      .city
+      { margin-left: 65px;}
+      .state
+      { margin-left: 60px;}
+      .zipcode
+      { margin-left: 35px;} 
+      .address
+      { margin-left: 38px;} 
+      .hobbies
+      { margin-left: 40px;}
+      .gender
+      { margin-left: 38px;}
+      .file
+      { margin-left: 20px;
+        border: 1px solid rgb(2, 2, 2);
+        padding: 15px 32px;}
+      .submit
+      { margin-left: 100px; background-color: #008CBA;}
+    </style>
+</head>
+
+<body>
+    <!-- first and last name starts -->
+<div class="first " >
+  <label for="fname">First Name:</label>
+  <input class="first1" type="text" name="fname">
+</div>
+<div class="first " >
+  <label for="lname">Last Name:</label>
+  <input class="last" type="text" name="lname">
+</div>
+<div class="first ">
+  <label for="City">City:</label>
+  <input class="city" type="text" name="City">
+</div>
+<div class="first" >
+  <label for="State">State:</label>
+  <input class="state" type="text" name="State">
+</div>
+<div class="first">
+  <label for="ZipCode">ZipCode:</label>
+  <input class="zipcode"type="number" name="number">
+</div>
+  <!-- first and last name ends-->
+
+  <!-- address starts -->
+ <div class="first">
+<label for="Address">Address:</label>
+<textarea class="address" rows="3" cols="40" name= form="usrform"></textarea>
+</div>
+ <!-- address ends--> 
+
+<!-- hobby starts -->
+<div class="first">  
+<label for="Hobby">Hobby:</label>
+  <input class="hobbies" type="checkbox" name="checkbox">
+  <label for="Music">Music</label>
+    <input type="checkbox" name="checkbox">
+    <label for="Reading books">Reading books</label>
+        <input type="checkbox" name="checkbox">
+        <label for=" Dance">Dance</label>
+          
+           <!-- hobby ends -->
+
+           <!-- gender starts-->
+           <div class="first">
+           <label for="Gender">Gender:</label>
+           <input class="gender" type="radio" name="radio">
+    <label for="Male">Male</label>
+    <inputclass="gender" type="radio" name="radio">
+    <input type="radio" name="radio">
+    <label for="Female">Female</label>
+    <input type="radio" name="radio">
+    <label for="Transgender">Transgender</label>
+    
+  </div>
+     <!-- gender ends -->
+
+<!-- attachment starst -->
+<div class="first">
+    <label for=" Upload File">Upload File</label>
+    <input class="file" type="file" name="file">
+  </div>
+    <!-- attachment  ends-->
+
+    <!-- submit button starts -->
+  
+    <div class= "first" >
+      <button class="submit" type="button" onclick="alert('successfully submited')">Submit</button>
+   
+  </div>
+    
+     <!-- submit button ends --> 
+</body>
+</html>
